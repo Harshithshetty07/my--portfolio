@@ -39,7 +39,7 @@ function Information() {
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1.2 }} className=" rounded-lg" src={profileImg} alt='Profile-img' />
+              transition={{ duration: 1, delay: 1.2 }} className="profile_img rounded-lg" src={profileImg} alt='Profile-img' />
           </div>
 
         </div>

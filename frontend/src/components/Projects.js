@@ -21,7 +21,7 @@ function Projects() {
                     className='w-full lg:w-1/4'>
                     <a href={project.link} target="_blank" rel="noopener noreferrer">
                       <img src={project.image} 
-                      className='mb-6 rounded'
+                      className='mb-6 rounded '
                       width={150} height={150} 
                       alt={project.title} />
                     </a>
