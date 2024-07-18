@@ -11,7 +11,7 @@ function NavBar() {
         <div className='flex flex-shrink-0 items-center'>
         <img src={profleImg} className='mx-2 w-10' alt='Profile-Img' />
         </div>
-        <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
+        <div className='m-8 flex items-center justify-center gap-8 text-2xl'>
           <a href='https://www.linkedin.com/in/harshithkv18/'  target="_blank" rel="noreferrer"><ImLinkedin /></a>
             <a href='https://github.com/Harshithshetty07' target="_blank" rel="noreferrer"><VscGithub/> </a>
             <FaXTwitter/>

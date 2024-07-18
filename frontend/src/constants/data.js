@@ -1,7 +1,9 @@
-import project1 from "../assets/project-1.jpg";
-import project2 from "../assets/project-2.jpg";
-import project3 from "../assets/project-3.jpg";
-import project4 from "../assets/project-4.jpg";
+import project1 from "../assets/ams-dashboard.png";
+import project2 from "../assets/netflix.png";
+import project3 from "../assets/foundry.png";
+import project4 from "../assets/gym.jpg";
+import project5 from "../assets/employe.jpg";
+import project6 from "../assets/cloud.jpg";
 
 export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting robust and scalable web applications. 
 With 6 months of hands-on experience, I have honed my skills in front-end technologies like React, JavaScript and Redux, 
@@ -31,23 +33,21 @@ export const PROJECTS = [
     title: "AMS INDIA DASHBOARD",
     image: project1,
     description:"A fully functional AMS India Dashboard, with features like temperature monitoring, vibration analysis, energy management, OEE calculation, sensor monitoring, digital-Etop monitoring. and user authentication",
-    technologies: ["React", "CSS", "JavaScript", "Tailwind CSS", "Bootstrap", "Mysql", "Php", "Form Validation", "Animation Library,"],
+    technologies: ["React", "CSS", "JavaScript", "Tailwind CSS", "Bootstrap", "Mysql", "Php", "Form Validation", "Animation Library," ,"React-Charts"],
     link: "https://cmti-smddc-dashboard.com/dashboard"
   },
   {
-    title: "Employee Data Table",
+    title: "Netflix Clone",
     image: project2,
-    description:
-      "An application for managing employee records, with features such as record creation, search, editing, and deletion, enhancing the application's functionality.",
-    technologies: ["React", "Bootstrap", "Express.js", "MongoDB"],
-    link: ""
+    description: "A fully functional Netflix Clone, featuring user authentication, movie and TV show browsing, dynamic search functionality, video streaming, personalized user recommendations, and a responsive design",
+    technologies: ["React", "CSS", "JavaScript", "Redux", "React-Hook-Form","Bootstrap", "Tailwind CSS","Form Validation"],
+    link: "https://netflix-clone-frontend.netlify.app/browse"
   },
   {
-    title: "Portfolio Website",
+    title: "Integrated Smart Foundry 4.0",
     image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    description: "An Integrated Smart Foundry 4.0 dashboard, providing real-time monitoring and control of foundry operations, including equipment status, process parameters, and production metrics. It features data visualization, predictive maintenance alerts, and integration with IoT devices ",
+    technologies: ["React", "CSS", "JavaScript",  "Tailwind CSS","Form Validation","Animation Library", "Material UI", "React-Charts" ],
     link: ""
   },
   {
@@ -55,7 +55,24 @@ export const PROJECTS = [
     image: project4,
     description:
       "A responsive gym website with features like an eye-catching showcase for gym plans, sections for reviews, gallery, and trainers, ensuring compatibility across various devices and screen sizes.",
-    technologies: ["HTML", "CSS", "Bootstrap"],
+    technologies: ["HTML", "CSS", "Bootstrap", "React"],
     link: "https://responsive-gym-website-xi.vercel.app/"
   },
+  {
+    title: "Employee Data Table",
+    image: project5,
+    description:
+      "An application for managing employee records, with features such as record creation, search, editing, and deletion, enhancing the application's functionality.",
+    technologies: ["React", "Bootstrap", "Express.js", "MongoDB"],
+    link: ""
+  },
+  
+  {
+    title: "Machine To Cloud Connecting EDGE Device Dashboard",
+    image: project6,
+    description: "A Machine to Cloud Connecting EDGE Device Dashboard, enabling seamless data transfer from industrial machines to the cloud. It offers real-time monitoring, data analytics, and remote control of machine operations. The dashboard features customizable widgets, alert notifications, and secure data encryption",
+    technologies: ["React", "CSS", "JavaScript", "Tailwind CSS", "React-Charts"],
+    link: "https://edge-device.netlify.app/"
+  },
+  
 ];
