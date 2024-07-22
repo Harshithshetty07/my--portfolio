@@ -30,6 +30,13 @@ Implemented responsive designs and optimized frontend performance.`,
 ];
 export const PROJECTS = [
   {
+    title: "Integrated Smart Foundry 4.0",
+    image: project3,
+    description: "An Integrated Smart Foundry 4.0 dashboard, providing real-time monitoring and control of foundry operations, including equipment status, process parameters, and production metrics. It features data visualization, predictive maintenance alerts, and integration with IoT devices ",
+    technologies: ["React", "CSS", "JavaScript",  "Tailwind CSS","Form Validation","Animation Library", "Material UI", "React-Charts" ],
+    link: "https://ifoundry.online/"
+  },
+  {
     title: "AMS INDIA DASHBOARD",
     image: project1,
     description:"A fully functional AMS India Dashboard, with features like temperature monitoring, vibration analysis, energy management, OEE calculation, sensor monitoring, digital-Etop monitoring. and user authentication",
@@ -41,15 +48,9 @@ export const PROJECTS = [
     image: project2,
     description: "A fully functional Netflix Clone, featuring user authentication, movie and TV show browsing, dynamic search functionality, video streaming, personalized user recommendations, and a responsive design",
     technologies: ["React", "CSS", "JavaScript", "Redux", "React-Hook-Form","Bootstrap", "Tailwind CSS","Form Validation"],
-    link: "https://netflix-clone-frontend.netlify.app/browse"
+    link: "https://github.com/Harshithshetty07/Netflix-clone"
   },
-  {
-    title: "Integrated Smart Foundry 4.0",
-    image: project3,
-    description: "An Integrated Smart Foundry 4.0 dashboard, providing real-time monitoring and control of foundry operations, including equipment status, process parameters, and production metrics. It features data visualization, predictive maintenance alerts, and integration with IoT devices ",
-    technologies: ["React", "CSS", "JavaScript",  "Tailwind CSS","Form Validation","Animation Library", "Material UI", "React-Charts" ],
-    link: ""
-  },
+  
   {
     title: "Responsive Gym Website",
     image: project4,
