@@ -7,6 +7,7 @@ import { SiMongodb } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -73,6 +74,14 @@ function Technologies() {
         animate="animate"
         className=' rounded-2xl border-4 border-neutral-800 p-4'>
         <SiMongodb className=' text-7xl text-green-500'/>
+        </motion.div>
+
+        <motion.div 
+        variants={iconVariants(3.5)}
+        initial="initial"
+        animate="animate"
+        className=' rounded-2xl border-4 border-neutral-800 p-4'>
+        <SiMysql className=' text-7xl text-green-500'/>
         </motion.div>
 
         <motion.div 
