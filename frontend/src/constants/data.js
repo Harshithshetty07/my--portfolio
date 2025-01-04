@@ -6,12 +6,12 @@ import project5 from "../assets/employe.jpg";
 import project6 from "../assets/cloud.jpg";
 
 export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting robust and scalable web applications. 
-With 8 months of hands-on experience, I have honed my skills in front-end technologies like React, JavaScript and Redux, 
-as well as back-end technologies like Node.js, Express.js, MySQL and MongoDB. My goal is to leverage my expertise 
+With 11 months of hands-on experience, I have honed my skills in front-end technologies like React, NextJS, JavaScript and Redux, 
+as well as back-end technologies like Python, MySQL and MongoDB. My goal is to leverage my expertise 
 to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer with a passion for creating efficient and user-friendly web applications. 
-With 8 months of professional experience, I have worked with a variety of technologies, including React, JavaScript, Redux, Node.js, Express.js, Tailwind CSS, Bootstrap, MySQL and MongoDB. 
+With 11 months of professional experience, I have worked with a variety of technologies, including React, NextJS, JavaScript, Redux, Python, Tailwind CSS, Bootstrap, MySQL and MongoDB. 
 My journey in web development began with a deep curiosity for how things work, and it has evolved into a career 
 where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.
 Outside of coding, I enjoy staying active, exploring new technologies.`;
@@ -25,7 +25,7 @@ export const EXPERIENCES = [
 Designed and developed user interfaces for web applications using React and Tailwind CSS Bootstrap.
 Implemented robust user validation techniques to enhance security and the user experience, ensuring intuitive navigation and fast loading times. 
 Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["Javascript", "React.js", "MongoDB",  "MySQL", "Express.js", "Bootstrap", "Redux", "Node.js", "Tailwind.CSS",  ],
+    technologies: ["Javascript", "React.js", "NextJS", "Python", "MongoDB",  "MySQL", "Bootstrap", "Redux", "Tailwind.CSS",  ],
   },
 ];
 export const PROJECTS = [

@@ -1,13 +1,13 @@
 import React from 'react'
 import { SiReact } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa6";
-import { SiExpress } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiMongodb } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -49,7 +49,7 @@ function Technologies() {
         initial="initial"
         animate="animate"
         className=' rounded-2xl border-4 border-neutral-800 p-4'>
-        <FaNodeJs className=' text-7xl text-green-500'/>
+        <RiNextjsFill className=' text-7xl text-white'/>
         </motion.div>
 
         <motion.div 
@@ -57,7 +57,7 @@ function Technologies() {
         initial="initial"
         animate="animate"
         className=' rounded-2xl border-4 border-neutral-800 p-4'>
-        <SiExpress className=' text-7xl text-neutral-400'/>
+        <FaPython className=' text-7xl text-blue-400'/>
         </motion.div>
 
         <motion.div 
