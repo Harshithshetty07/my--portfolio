@@ -5,10 +5,10 @@ import project4 from "../assets/gym.jpg";
 import project5 from "../assets/employe.jpg";
 import project6 from "../assets/cloud.jpg";
 
-export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting robust and scalable web applications. 
-With 11 months of hands-on experience, I have honed my skills in front-end technologies like React, NextJS, JavaScript and Redux, 
-as well as back-end technologies like Python, MySQL and MongoDB. My goal is to leverage my expertise 
-to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a dedicated and versatile frontend developer with a passion for creating efficient and user-friendly 
+web applications that solve real-world industrial challenges. With 1+ year of professional experience at CMTI (Central Manufacturing 
+Technology Institute), I have worked with a variety of technologies, including React.js, 
+Next.js, JavaScript, Redux, Tailwind CSS, Bootstrap, MySQL, and MongoDB, specializing in IoT-integrated monitoring systems and real-time data visualization.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer with a passion for creating efficient and user-friendly web applications. 
 With 11 months of professional experience, I have worked with a variety of technologies, including React, NextJS, JavaScript, Redux, Python, Tailwind CSS, Bootstrap, MySQL and MongoDB. 
