@@ -4,6 +4,7 @@ import project3 from "../assets/foundry.png";
 import project4 from "../assets/gym.jpg";
 import project5 from "../assets/employe.jpg";
 import project6 from "../assets/cloud.jpg";
+import CMTI_LOGO_Image from '../assets/CMTILogo.png'
 
 export const HERO_CONTENT = `I am a dedicated and versatile frontend developer with a passion for creating efficient and user-friendly 
 web applications that solve real-world industrial challenges. With 1+ year of professional experience at CMTI (Central Manufacturing 
@@ -15,6 +16,41 @@ With 11 months of professional experience, I have worked with a variety of techn
 My journey in web development began with a deep curiosity for how things work, and it has evolved into a career 
 where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.
 Outside of coding, I enjoy staying active, exploring new technologies.`;
+
+
+export const experiences = [
+  {
+    title: "Project Assistant - 2 (Frontend Developer)",
+    company_name: "Central Manufacturing Technology Institute – Govt. of India",
+    icon: CMTI_LOGO_Image,
+    iconBg: "#383E56",
+    date: "Feb 2025 - Present",
+    technologies: ["Javascript", "React.js", "NextJS", "SQL", "MongoDB",  "MySQL", "Docker", "MySQL", "Tailwind.CSS",  ],
+    points: [
+      "Architected and delivered 3 high-performance client applications using React.js and Next.js microservices architecture, meeting all business requirements while reducing deployment time by 30%.",
+      "Led development of microservices-based web applications with optimized component architecture, reducing initial load times by 40% and enhancing overall system performance.",
+      "Engineered responsive user interfaces utilizing React, Next.js, and Tailwind CSS that increased user engagement metrics by 30% and improved cross-device compatibility across 95% of target browsers.",
+      "Collaborated cross-functionally with R&D teams to identify and integrate emerging technologies, driving continuous improvement in software development practices.",
+    ],
+   
+  },
+  {
+    title: "Graduate Apprentice (Frontend Developer)",
+    company_name: "Central Manufacturing Technology Institute – Govt. of India",
+    icon: CMTI_LOGO_Image,
+    iconBg: "#E6DEDD",
+    date: "Feb 2024 - Feb 2025",
+    technologies: ["Javascript", "React.js", "NextJS", "SQL", "MongoDB",  "MySQL", "Docker", "MySQL", "Tailwind.CSS", "Redux", "Bootstrap" ],
+    points: [
+      "Contributed to frontend development initiatives by designing and implementing responsive UI components using React.js, enhancing user interface consistency across multiple client applications.",
+      "Assisted in database integration projects by developing efficient data fetching mechanisms and API integrations, improving data retrieval performance by 27% through optimized query implementations.",
+      "Supported senior developers in building user-centric interfaces using React, JavaScript, and CSS frameworks, contributing to 1 successful project deliveries that met client specifications.",
+    ],
+  },
+  
+];
+
+
 
 export const EXPERIENCES = [
   {
