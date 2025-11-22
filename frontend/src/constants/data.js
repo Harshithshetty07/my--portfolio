@@ -1,9 +1,11 @@
 import project1 from "../assets/ams-dashboard.png";
 import project2 from "../assets/netflix.png";
 import project3 from "../assets/foundry.png";
-import project4 from "../assets/gym.jpg";
+import project4 from "../assets/mtcmProjectImg.png";
 import project5 from "../assets/employe.jpg";
 import project6 from "../assets/cloud.jpg";
+import project7 from "../assets/waxInjectionImg.png";
+import project8 from "../assets/spindleprojectImg.png";
 import CMTI_LOGO_Image from '../assets/CMTILogo.png'
 
 export const HERO_CONTENT = `I am a dedicated and versatile frontend developer with a passion for creating efficient and user-friendly 
@@ -62,29 +64,96 @@ Implemented responsive designs and optimized frontend performance.`,
     technologies: ["Javascript", "React.js", "NextJS", "Python", "MongoDB", "MySQL", "Bootstrap", "Redux", "Tailwind.CSS",],
   },
 ];
-export const PROJECTS = [
+
+export const COMPANY_PROJECTS = [
   {
-    title: "Integrated Smart Foundry 4.0",
+    title: "Low Temperature Wax Injector Machine Dashboard",
+    image: project7,
+    description:
+      "A real-time monitoring dashboard for wax injection processes with precise sensor integrations. Includes temperature tracking, hydraulic status monitoring, and an energy management module to optimize process efficiency.",
+    technologies: ["Next.js", "React.js", "MySQL", "Tailwind CSS", "Framer Motion", "Jest"],
+    link: ""
+  },
+  {
+    title: "Smart Spindle Dashboard",
+    image: project8,
+    description:
+      "A real-time spindle monitoring system with waveform analysis, spindle order tracking, FFT visualization, and live temperature and strain gauge alerts using threshold-based mechanisms.",
+    technologies: ["Next.js", "React.js", "MySQL", "Tailwind CSS", "Framer Motion"],
+    link: ""
+  },
+  {
+    title: "Integrated Smart Foundry 4.0 Dashboard",
     image: project3,
-    description: "An Integrated Smart Foundry 4.0 dashboard, providing real-time monitoring and control of foundry operations, including equipment status, process parameters, and production metrics. It features data visualization, predictive maintenance alerts, and integration with IoT devices ",
-    technologies: ["React", "CSS", "JavaScript", "Tailwind CSS", "Form Validation", "Animation Library", "Material UI", "React-Charts"],
+    description:
+      "An IoT-integrated monitoring system for 6+ industrial machines with predictive maintenance alerts. Processes over 10,000+ hourly datapoints with sub-1s dashboard response time.",
+    technologies: [
+      "React",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS",
+      "Form Validation",
+      "Animation Library",
+      "Material UI",
+      "React-Charts"
+    ],
     link: "https://ifoundry.online/"
   },
   {
-    title: "AMS INDIA DASHBOARD",
+    title: "Machine Tool Condition Monitoring Edge Module Dashboard",
+    image: project4,
+    description:
+      "A real-time machine tool condition monitoring dashboard with 99.8% uptime. Includes backend API integration for sensor signal processing and predictive maintenance analytics.",
+    technologies: [
+      "React",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS",
+      "Form Validation",
+      "Animation Library",
+      "Material UI",
+      "React-Charts"
+    ],
+    link: ""
+  },
+  {
+    title: "AMS India Dashboard",
     image: project1,
-    description: "A fully functional AMS India Dashboard, with features like temperature monitoring, vibration analysis, energy management, OEE calculation, sensor monitoring, digital-Etop monitoring. and user authentication",
-    technologies: ["React", "CSS", "JavaScript", "Tailwind CSS", "Bootstrap", "Mysql", "Php", "Form Validation", "Animation Library,", "React-Charts"],
+    description:
+      "A fully functional AMS India dashboard including temperature monitoring, vibration analytics, energy tracking, OEE calculation, sensor monitoring, Digital-Etop monitoring, and user authentication modules.",
+    technologies: [
+      "React",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS",
+      "Bootstrap",
+      "MySQL",
+      "PHP",
+      "Form Validation",
+      "Animation Library",
+      "React-Charts"
+    ],
     link: "https://cmti-smddc-dashboard.com/dashboard"
   },
   {
+    title: "Machine to Cloud Connecting EDGE Device Dashboard",
+    image: project6,
+    description:
+      "A cloud-connected EDGE Device dashboard that transfers machine data to the cloud. Includes real-time monitoring, analytics, customizable widgets, alert notifications, and secure data encryption.",
+    technologies: ["React", "CSS", "JavaScript", "Tailwind CSS", "React-Charts"],
+    link: "https://edge-device.netlify.app/"
+  }
+];
+
+
+export const PERSONAL_PROJECTS = [
+{
     title: "Netflix Clone",
     image: project2,
     description: "A fully functional Netflix Clone, featuring user authentication, movie and TV show browsing, dynamic search functionality, video streaming, personalized user recommendations, and a responsive design",
     technologies: ["React", "CSS", "JavaScript", "Redux", "React-Hook-Form", "Bootstrap", "Tailwind CSS", "Form Validation"],
     link: "https://github.com/Harshithshetty07/Netflix-clone"
   },
-
   {
     title: "Responsive Gym Website",
     image: project4,
@@ -101,13 +170,4 @@ export const PROJECTS = [
     technologies: ["React", "Bootstrap", "Express.js", "MongoDB"],
     link: ""
   },
-
-  {
-    title: "Machine To Cloud Connecting EDGE Device Dashboard",
-    image: project6,
-    description: "A Machine to Cloud Connecting EDGE Device Dashboard, enabling seamless data transfer from industrial machines to the cloud. It offers real-time monitoring, data analytics, and remote control of machine operations. The dashboard features customizable widgets, alert notifications, and secure data encryption",
-    technologies: ["React", "CSS", "JavaScript", "Tailwind CSS", "React-Charts"],
-    link: "https://edge-device.netlify.app/"
-  },
-
-];
+]

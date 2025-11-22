@@ -45,7 +45,7 @@ const ExperienceCard = ({ experience, index }) => {
       }
     >
       {/* Background decoration */}
-      <div className="absolute top-0 left-0 w-full h-1 rounded-t-2xl bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
+      <div className="absolute top-0 left-0 w-full h-1 rounded-t-2xl bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500" id="experience"></div>
       
       {/* Floating particles animation */}
       {/* <div className="absolute inset-0 overflow-hidden pointer-events-none">
